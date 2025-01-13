@@ -1,7 +1,9 @@
 export default function Home() {
   return (
     <div className="center column" >
-      <div style={{fontWeight:"900"}} >Kamal</div>
+      <div className="name" style={{color:"navy"}} >
+        <span style={{fontSize:"150px"}} >K</span>amal
+      </div>
       <div>Raghe</div>
     </div>
   );
