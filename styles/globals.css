@@ -10,6 +10,10 @@
   flex-direction: column;
 }
 
+.section{
+  height: 100vh
+}
+
 .name{
   font-size: 100px;
   font-weight: 900;
@@ -46,14 +50,16 @@
   }
 }
 
-.last{
-  animation: left 2s linear;
+.title{
+  animation: title 4s linear;
 }
 
 @keyframes title{ 
   0%{
     opacity: 0 ;
    
+  }50%{
+    opacity: 0 ;
   }
   100%{
     opacity: 1;
