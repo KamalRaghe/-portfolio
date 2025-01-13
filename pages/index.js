@@ -4,7 +4,7 @@ export default function Home() {
       <div className="name" style={{color:"navy"}} >
         <span style={{fontSize:"150px"}} >K</span>amal
       </div>
-      <div>Raghe</div>
+      <div className="" >Raghe</div>
     </div>
   );
 }
