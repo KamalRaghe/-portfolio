@@ -2,13 +2,8 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
    const [loaded, setLoaded] = useState(false)
-   const [none,setNone] = useState('')
-   const [none2,setNone2] = useState('none')
+
    useEffect(()=>{
-    setTimeout(() => {
-      setNone('none')
-      setNone2('')
-    }, 1900);
     setTimeout(() => {
       setLoaded(true)
     }, 4000);
@@ -23,8 +18,8 @@ export default function Home() {
         <div className=" title name" style={{backgroundColor:"purple",color:"white",position:"relative",bottom:"38px",fontSize:"40px",border:"1px solid purple",padding:"10px 70px"}}  >
           E-portfolio 
         </div></div>:<div className="section center column name" >
-          <div className="intro" style={{display:none}} >Welcome</div>
-          <div className="to" style={{display:none2}} >to</div>
+          <div className="intro">Welcome</div>
+          <div className="to">to</div>
         </div>}
       </div>
       <div className="center column section" style={{backgroundColor:"yellow"}} >
