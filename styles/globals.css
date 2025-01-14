@@ -81,25 +81,3 @@
     display: none;
   }
 }
-
-.to{
-  opacity: 0;
-  animation: fade2 4s linear;
-}
-
-@keyframes fade2 {
-  0%{
-    opacity: 0;
-  }
-  75%{
-    opacity: 0;
-  }
-  80%{
-    opacity: 1;
-    scale: 1;
-  }
-  100%{
-    opacity: 0;
-    scale: 2;
-  }
-}
