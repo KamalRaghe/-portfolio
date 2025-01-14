@@ -78,6 +78,7 @@
   100%{
     opacity: 0;
     scale: 2;
+    display: none;
   }
 }
 
