@@ -67,7 +67,7 @@
 }
 
 .intro{
-  animation: fade 3s linear;
+  animation: fade 2s linear;
 }
 
 @keyframes fade {
@@ -88,15 +88,15 @@
 
 @keyframes fade {
   0%{
-    opacity: 0;
+    display: none;
   }
   75%{
+    display: flex;
     opacity: 1;
     scale: 1;
   }
   100%{
     opacity: 0;
     scale: 2;
-    display: flex;
   }
 }
