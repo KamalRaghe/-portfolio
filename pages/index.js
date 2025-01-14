@@ -3,11 +3,12 @@ import { useEffect, useState } from "react";
 export default function Home() {
    const [loaded, setLoaded] = useState(false)
    const [none,setNone] = useState('')
+   const [none2,setNone2] = useState('none')
    useEffect(()=>{
     setTimeout(() => {
-      setLoaded(true)
       setNone('none')
-    }, 2000);
+      setNone2('')
+    }, 1900);
     setTimeout(() => {
       setLoaded(true)
     }, 4000);
@@ -23,7 +24,7 @@ export default function Home() {
           E-portfolio 
         </div></div>:<div className="section center column name" >
           <div className="intro" style={{display:none}} >Welcome</div>
-          <div className="to">to</div>
+          <div className="to" style={{display:none2}} >to</div>
         </div>}
       </div>
       <div className="center column section" style={{backgroundColor:"yellow"}} >
