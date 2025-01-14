@@ -76,16 +76,16 @@
   }
   100%{
     opacity: 0;
-    scale: 3;
+    scale: 2;
   }
 }
 
 .to{
   opacity: 0;
-  animation: fade 4s linear;
+  animation: to 4s linear;
 }
 
-@keyframes fade {
+@keyframes to {
   0%{
     opacity: 0;
   }
