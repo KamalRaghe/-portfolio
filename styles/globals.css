@@ -67,7 +67,8 @@
 }
 
 .intro{
-  animation: fade 3s linear;
+  opacity: 0;
+  animation: fade 2s linear;
 }
 
 @keyframes fade {
@@ -82,10 +83,10 @@
 
 .to{
   opacity: 0;
-  animation: to 4s linear;
+  animation: fade2 4s linear;
 }
 
-@keyframes to {
+@keyframes fade2 {
   0%{
     opacity: 0;
   }

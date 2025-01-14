@@ -6,12 +6,7 @@ export default function Home() {
    const[none2,setNone2] = useState('none')
    useEffect(()=>{
     setTimeout(() => {
-      setNone('none')
-      setNone2('')
-    }, 3000);
-    setTimeout(() => {
       setLoaded(true)
-      setNone2('none')
     }, 4000);
    },[])
   return (
