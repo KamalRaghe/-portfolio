@@ -65,3 +65,40 @@
     opacity: 1;
   }
 }
+
+.intro{
+  animation: fade 2s linear;
+}
+
+@keyframes fade {
+  0%{
+    opacity: 1;
+    scale: 1;
+  }
+  100%{
+    opacity: 0;
+    scale: 3;
+    display: none;
+  }
+}
+
+.to{
+  display: flex;
+  animation: fade 4s linear;
+}
+
+@keyframes fade {
+  0%{
+    display: none;
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+    scale: 1;
+  }
+  100%{
+    opacity: 0;
+    scale: 2;
+    display: flex;
+  }
+}
