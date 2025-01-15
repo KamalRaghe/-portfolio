@@ -1,13 +1,6 @@
 import { useEffect, useState } from "react";
 
 export default function Home() {
-   const [loaded, setLoaded] = useState(false)
-
-   useEffect(()=>{
-    setTimeout(() => {
-      setLoaded(true)
-    }, 2000);
-   },[])
   return (
     <div>
       <div className="center column section" style={{backgroundColor:"cyan"}} >
