@@ -1,6 +1,8 @@
+import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
 export default function Home() {
+  const router = useRouter()
   return (
     <div>
       <div className="center column section" style={{backgroundColor:"cyan"}} >
@@ -12,9 +14,9 @@ export default function Home() {
           E-portfolio 
         </div>
         <div className="center subtitle " style={{fontSize:"20px",color:"purple",position:"relative",bottom:"15px"}} >
-          <div style={{borderBottom:"2px solid purple"}} >About</div>
-          <div style={{margin:"0 30px",borderBottom:"2px solid purple"}} >Languages</div>
-          <div style={{borderBottom:"2px solid purple"}} >Project</div>
+          <div style={{borderBottom:"2px solid purple"}} onClick={()=>{router.push('/about')}} >About</div>
+          <div style={{margin:"0 30px",borderBottom:"2px solid purple"}} onClick={()=>{router.push('/Languages')}} >Languages</div>
+          <div style={{borderBottom:"2px solid purple"}} onClick={()=>{router.push('/Project')}} >Project</div>
         </div>
       </div>
     </div>
