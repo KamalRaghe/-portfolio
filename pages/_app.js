@@ -6,9 +6,9 @@ export default function App({ Component, pageProps }){
   return <div>
     <div className=" center" style={{cursor:"pointer",justifyContent:"end",height:'50px',width:"100vw",position:"fixed",backgroundColor:"purple",color:"white",zIndex:"100",top:"0px",paddingRight:"10px"}}>
       <div style={{margin:"15px"}} onClick={()=>{router.push('/')}} >Home</div>
-      <div style={{margin:"15px"}} onClick={()=>{router.push('/')}} >About</div>
-      <div style={{margin:"15px"}} onClick={()=>{router.push('/')}} >Languages</div>
-      <div style={{margin:"15px"}} onClick={()=>{router.push('/')}} >Project</div>
+      <div style={{margin:"15px"}} onClick={()=>{router.push('/about')}} >About</div>
+      <div style={{margin:"15px"}} onClick={()=>{router.push('/Languages')}} >Languages</div>
+      <div style={{margin:"15px"}} onClick={()=>{router.push('/Project')}} >Project</div>
     </div>
     <Component {...pageProps} />
   </div>;
