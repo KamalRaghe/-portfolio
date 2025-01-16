@@ -8,7 +8,7 @@ export default function Languages(){
                 <div className="center fade" style={{backgroundColor:"white",width:"250px",height:"200px"}} >
                     Project 1
                 </div>
-                <div className="center fade" style={{backgroundColor:"white",width:"250px",height:"200px",margin:"2npm0px"}} >
+                <div className="center fade" style={{backgroundColor:"white",width:"250px",height:"200px",margin:"20px"}} >
                     Project 2
                 </div>
                 <div className="center fade" style={{backgroundColor:"white",width:"250px",height:"200px"}} >
