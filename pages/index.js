@@ -7,13 +7,13 @@ export default function Home() {
   const pro = useRef()
   return (
     <div>
-       <div className=" center" style={{cursor:"pointer",justifyContent:"end",height:'50px',width:"100vw",position:"fixed",zIndex:"100",top:"0px",paddingRight:"10px",border:"1px solid black",borderTop:"0px",backgroundColor:"white"}}>
+       <div className=" center" style={{cursor:"pointer",justifyContent:"end",height:'50px',width:"100vw",position:"fixed",zIndex:"100",top:"0px",paddingRight:"10px",color:"blue",borderTop:"0px",backgroundColor:"white"}}>
       <div style={{margin:"15px"}} onClick={()=>{router.push('/')}} >Home</div>
       <div style={{margin:"15px"}} onClick={()=>{router.push('/about')}} >About</div>
       <div style={{margin:"15px"}} onClick={()=>{router.push('/Languages')}} >Languages</div>
       <div style={{margin:"15px"}} onClick={()=>{router.push('/Project')}} >Project</div>
     </div>
-      <div className="center column" style={{margin:"20px",marginTop:"40px"}} >
+      <div className="center column section">
       <div className="first name" style={{color:"navy",position:"relative",right:"30px"}} >
           Kamal
         </div>
@@ -44,7 +44,7 @@ export default function Home() {
                 I am a self-employed frontend web developer
             </div>
         </div>
-        <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder"}} >
+        <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",height:"150vh"}} >
             <div ref={lan} className="fade" style={{width:"300px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                 This is my technology stack
             </div>
@@ -68,8 +68,8 @@ export default function Home() {
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                 </div>
             </div>
-          
         </div>
+        <br></br>
         <div ref={pro} className="center column section" style={{fontSize:"25px",fontWeight:"bolder"}} >
             <div  className="fade" style={{width:"220px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                 This is my projects
