@@ -32,7 +32,11 @@ export default function Home() {
               behavior: 'smooth',
             })
           }} >Languages</div>
-          <div style={{borderBottom:"2px solid blue"}} onClick={()=>{}} >Project</div>
+          <div style={{borderBottom:"2px solid blue"}} onClick={()=>{
+             pro.current?.scrollIntoView({
+              behavior: 'smooth',
+            })
+          }}  >Project</div>
         </div>
       </div>
       <div ref={about} className="center column section" style={{fontSize:"40px",fontWeight:"bolder"}} >
