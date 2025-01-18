@@ -3,9 +3,6 @@ import { useEffect, useRef, useState } from "react";
 export default function Home() {
   const router = useRouter()
   const about = useRef()
-   function(){
-    scrollIn
-   }
   return (
     <div>
       <div className="center column section" >
@@ -16,7 +13,7 @@ export default function Home() {
         <div className=" title name" style={{backgroundColor:"purple",color:"white",position:"relative",bottom:"38px",fontSize:"40px",padding:"10px 70px"}}  >
           E-portfolio 
         </div>
-        <div className="center subtitle " style={{fontSize:"20px",color:"blue",position:"relative",bottom:"15px"}} >
+        <div className="center subtitle " style={{fontSize:"20px",color:"blue",position:"relative",bottom:"15px",cursor:"pointer"}} >
           <div style={{borderBottom:"2px solid blue"}} onClick={()=>{
             const element = document.getElementById('about');
             about.current?.scrollIntoView({
