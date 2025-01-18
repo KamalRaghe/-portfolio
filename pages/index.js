@@ -53,15 +53,12 @@ export default function Home() {
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                 </div>
-                <div><img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img></div>
-                <div><img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img></div>
+                <div>
+                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
+                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
+                </div>
             </div>
-            <div className="center fade" style={{justifyContent:"space-between"}} >
-                <div><img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img></div>
-                <div><img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img></div>
-                <div><img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img></div>
-                <div><img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img></div>
-            </div>
+          
         </div>
         <div ref={pro} className="center column section" style={{fontSize:"25px",fontWeight:"bolder"}} >
             <div  className="fade" style={{width:"220px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
