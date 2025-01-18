@@ -4,8 +4,15 @@ export default function Home() {
   const router = useRouter()
   const about = useRef()
   const lan = useRef()
+  const pro = useRef()
   return (
     <div>
+       <div className=" center" style={{cursor:"pointer",justifyContent:"end",height:'50px',width:"100vw",position:"fixed",zIndex:"100",top:"0px",paddingRight:"10px",border:"1px solid black",borderTop:"0px",backgroundColor:"white"}}>
+      <div style={{margin:"15px"}} onClick={()=>{router.push('/')}} >Home</div>
+      <div style={{margin:"15px"}} onClick={()=>{router.push('/about')}} >About</div>
+      <div style={{margin:"15px"}} onClick={()=>{router.push('/Languages')}} >Languages</div>
+      <div style={{margin:"15px"}} onClick={()=>{router.push('/Project')}} >Project</div>
+    </div>
       <div className="center column section" >
       <div className="first name" style={{color:"navy",position:"relative",right:"30px"}} >
           Kamal
@@ -25,7 +32,7 @@ export default function Home() {
               behavior: 'smooth',
             })
           }} >Languages</div>
-          <div style={{borderBottom:"2px solid blue"}} onClick={()=>{router.push('/Project')}} >Project</div>
+          <div style={{borderBottom:"2px solid blue"}} onClick={()=>{}} >Project</div>
         </div>
       </div>
       <div ref={about} className="center column section" style={{fontSize:"40px",fontWeight:"bolder"}} >
@@ -37,7 +44,7 @@ export default function Home() {
             <div className="fade" style={{width:"300px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                 This is my technology stack
             </div>
-            <div className="center fade" style={{justifyContent:"space-between"}} >
+            <div ref = {pro} className="center fade" style={{justifyContent:"space-between"}} >
                 <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                 <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                 <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
