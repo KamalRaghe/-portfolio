@@ -13,7 +13,7 @@ export default function Home() {
       <div style={{margin:"15px"}} onClick={()=>{router.push('/Languages')}} >Languages</div>
       <div style={{margin:"15px"}} onClick={()=>{router.push('/Project')}} >Project</div>
     </div>
-      <div className="center column section" >
+      <div className="center column" style={{margin:"20px",marginTop:"40px"}} >
       <div className="first name" style={{color:"navy",position:"relative",right:"30px"}} >
           Kamal
         </div>
@@ -44,9 +44,19 @@ export default function Home() {
                 I am a self-employed frontend web developer
             </div>
         </div>
-        <div ref={lan} className="center column section" style={{fontSize:"25px",fontWeight:"bolder"}} >
-            <div className="fade" style={{width:"300px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
+        <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder"}} >
+            <div ref={lan} className="fade" style={{width:"300px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                 This is my technology stack
+            </div>
+            <div className="center fade column" style={{justifyContent:"space-between",width:"60vw"}} >
+                <div>
+                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
+                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
+                </div>
+                <div>
+                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
+                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
+                </div>
             </div>
             <div className="center fade column" style={{justifyContent:"space-between",width:"60vw"}} >
                 <div>
