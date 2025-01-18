@@ -54,7 +54,7 @@ export default function Home() {
             <div className="fade" style={{width:"220px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                 This is my projects
             </div>
-            <div className="center" >
+            <div className="center column" >
                 <div className="center fade" style={{backgroundColor:"white",width:"250px",height:"200px"}} >
                     Project 1
                 </div>
