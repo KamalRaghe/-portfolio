@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 export default function Home() {
   const router = useRouter()
   const about = useRef()
+  const lan = useRef()
   return (
     <div>
       <div className="center column section" >
@@ -15,18 +16,38 @@ export default function Home() {
         </div>
         <div className="center subtitle " style={{fontSize:"20px",color:"blue",position:"relative",bottom:"15px",cursor:"pointer"}} >
           <div style={{borderBottom:"2px solid blue"}} onClick={()=>{
-            const element = document.getElementById('about');
             about.current?.scrollIntoView({
               behavior: 'smooth',
             })
           }} >About</div>
-          <div style={{margin:"0 30px",borderBottom:"2px solid blue"}} onClick={()=>{router.push('/Languages')}} >Languages</div>
+          <div style={{margin:"0 30px",borderBottom:"2px solid blue"}} onClick={()=>{
+             lan.current?.scrollIntoView({
+              behavior: 'smooth',
+            })
+          }} >Languages</div>
           <div style={{borderBottom:"2px solid blue"}} onClick={()=>{router.push('/Project')}} >Project</div>
         </div>
       </div>
       <div ref={about} className="center column section" style={{fontSize:"40px",fontWeight:"bolder"}} >
             <div className="fade" style={{width:"330px",textAlign:"center"}}>
                 I am a self-employed frontend web developer
+            </div>
+        </div>
+        <div ref={lan} className="center column section" style={{fontSize:"25px",fontWeight:"bolder"}} >
+            <div className="fade" style={{width:"300px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
+                This is my technology stack
+            </div>
+            <div className="center fade" style={{justifyContent:"space-between"}} >
+                <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
+                <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
+                <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
+                <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
+            </div>
+            <div className="center fade" style={{justifyContent:"space-between"}} >
+                <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
+                <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
+                <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
+                <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
             </div>
         </div>
     </div>
