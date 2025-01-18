@@ -1,8 +1,11 @@
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
-
+import { useEffect, useRef, useState } from "react";
 export default function Home() {
   const router = useRouter()
+  const about = useRef()
+   function(){
+    scrollIn
+   }
   return (
     <div>
       <div className="center column section" >
@@ -13,12 +16,22 @@ export default function Home() {
         <div className=" title name" style={{backgroundColor:"purple",color:"white",position:"relative",bottom:"38px",fontSize:"40px",padding:"10px 70px"}}  >
           E-portfolio 
         </div>
-        <div className="center subtitle " style={{fontSize:"20px",color:"purple",position:"relative",bottom:"15px"}} >
-          <div style={{borderBottom:"2px solid purple"}} onClick={()=>{router.push('/about')}} >About</div>
-          <div style={{margin:"0 30px",borderBottom:"2px solid purple"}} onClick={()=>{router.push('/Languages')}} >Languages</div>
-          <div style={{borderBottom:"2px solid purple"}} onClick={()=>{router.push('/Project')}} >Project</div>
+        <div className="center subtitle " style={{fontSize:"20px",color:"blue",position:"relative",bottom:"15px"}} >
+          <div style={{borderBottom:"2px solid blue"}} onClick={()=>{
+            const element = document.getElementById('about');
+            about.current?.scrollIntoView({
+              behavior: 'smooth',
+            })
+          }} >About</div>
+          <div style={{margin:"0 30px",borderBottom:"2px solid blue"}} onClick={()=>{router.push('/Languages')}} >Languages</div>
+          <div style={{borderBottom:"2px solid blue"}} onClick={()=>{router.push('/Project')}} >Project</div>
         </div>
       </div>
+      <div ref={about} className="center column section" style={{fontSize:"40px",fontWeight:"bolder"}} >
+            <div className="fade" style={{width:"330px",textAlign:"center"}}>
+                I am a self-employed frontend web developer
+            </div>
+        </div>
     </div>
   );
 }
