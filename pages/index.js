@@ -56,12 +56,12 @@ export default function Home() {
           }}  >Project</div>
         </div>
       </div>
-      <div ref={about} className="center column section" style={{fontSize:"40px",fontWeight:"bolder"}} >
+      <div ref={about} className="center column section" style={{fontSize:"40px",fontWeight:"bolder",border:"1px solid black",marginBottom:"50px"}} >
             <div className="fade" style={{width:"330px",textAlign:"center"}}>
                 I am a self-employed frontend web developer
             </div>
         </div>
-        <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",height:"100vh",marginBottom:"100px"}} >
+        <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",height:"100vh",marginBottom:"170px",marginTop:"100px"}} >
           <div ref={lan} className="fade" style={{width:"300px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                 This is my technology stack
             </div>
