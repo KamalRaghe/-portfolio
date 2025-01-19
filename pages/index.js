@@ -61,7 +61,7 @@ export default function Home() {
                 I am a self-employed frontend web developer
             </div>
         </div>
-        <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",height:"100vh",marginBottom:"170px",marginTop:"100px"}} >
+        <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",height:"100vh",marginBottom:"190px",marginTop:"100px"}} >
           <div ref={lan} className="fade" style={{width:"300px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                 This is my technology stack
             </div>
