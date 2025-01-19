@@ -62,12 +62,12 @@ export default function Home() {
             </div>
         </div>
         <div ref={lan} ></div>
-        <div className="center column section" style={{fontSize:"25px",border:"1px solid black",fontWeight:"bolder",height:"120vh",marginBottom:"190px",marginTop:"100px"}} >
+        <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",height:"120vh"}} >
           <div className="fade" style={{width:"250px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                 My technology stack
             </div>
             <div className="center fade" >
-                <div className="screen" style={{position:"relative",left:"15px"}} >
+                <div className="screen" style={{position:"relative"}} >
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
