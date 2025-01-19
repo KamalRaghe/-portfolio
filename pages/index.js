@@ -56,18 +56,18 @@ export default function Home() {
           }}  >Project</div>
         </div>
       </div>
-      <div ref={about} className="center column section" style={{fontSize:"40px",fontWeight:"bolder",marginBottom:"50px"}} >
+      <div ref={about} className="center column section" style={{fontSize:"40px",fontWeight:"bolder"}} >
             <div className="fade" style={{width:"330px",textAlign:"center"}}>
                 I am a self-employed frontend web developer
             </div>
         </div>
         <div ref={lan} ></div>
         <div className="center column section" style={{fontSize:"25px",border:"1px solid black",fontWeight:"bolder",height:"120vh",marginBottom:"190px",marginTop:"100px"}} >
-          <div className="fade" style={{width:"300px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
+          <div className="fade" style={{width:"250px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                 My technology stack
             </div>
             <div className="center fade" >
-                <div style={{width:"400px",position:"relative",left:"38px"}} >
+                <div className="screen" style={{position:"relative",left:"15px"}} >
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
@@ -76,16 +76,12 @@ export default function Home() {
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
-                </div>
-            </div>
-            <div className="center fade" style= {{justifyContent:"space-between"}} >
-                <div>
                 </div>
             </div>
         </div>
         <div ref={pro} ></div>
-        <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",border:"1px solid black",height:"150vh"}} >
-            <div  className="fade" style={{width:"220px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
+        <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",height:"150vh"}} >
+            <div  className="fade" style={{width:"160px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                 My projects
             </div>
             <div className="center column" >

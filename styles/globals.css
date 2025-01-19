@@ -102,3 +102,13 @@
     transform: translateY(0px);
   }
 }
+
+.screen{
+  width: 700px;
+}
+
+@media (max-width: 680px){
+  .screen{
+    width: 340px;
+  }
+}
