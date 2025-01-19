@@ -64,24 +64,22 @@ export default function Home() {
         <div ref={lan} ></div>
         <div className="center column section" style={{fontSize:"25px",border:"1px solid black",fontWeight:"bolder",height:"120vh",marginBottom:"190px",marginTop:"100px"}} >
           <div className="fade" style={{width:"300px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
-                This is my technology stack
+                My technology stack
             </div>
-            <div className="center fade column" style={{justifyContent:"space-between"}} >
-                <div>
+            <div className="center fade" >
+                <div style={{width:"400px",position:"relative",left:"38px"}} >
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
-                  </div><div>
+                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
+                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
+                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
+                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                 </div>
             </div>
-            <div className="center fade column" style={{justifyContent:"space-between"}} >
+            <div className="center fade" style= {{justifyContent:"space-between"}} >
                 <div>
-                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
-                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
-                  </div><div>
-                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
-                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                 </div>
             </div>
         </div>
