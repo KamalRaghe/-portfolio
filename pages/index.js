@@ -61,26 +61,23 @@ export default function Home() {
                 I am a self-employed frontend web developer
             </div>
         </div>
-        <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",height:"100vh",marginBottom:"190px",marginTop:"100px"}} >
-          <div ref={lan} className="fade" style={{width:"300px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
+        <div></div>
+        <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",border:"1px solid black",height:"60vh",marginBottom:"190px",marginTop:"100px"}} >
+          <div className="fade" style={{width:"300px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                 This is my technology stack
             </div>
-            <div className="center fade column" style={{justifyContent:"space-between",width:"60vw"}} >
+            <div className="center fade column" style={{justifyContent:"space-between"}} >
                 <div>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
-                </div>
-                <div>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                 </div>
             </div>
-            <div className="center fade column" style={{justifyContent:"space-between",width:"60vw"}} >
+            <div className="center fade column" style={{justifyContent:"space-between"}} >
                 <div>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
-                </div>
-                <div>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                   <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                 </div>
