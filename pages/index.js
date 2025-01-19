@@ -5,10 +5,15 @@ export default function Home() {
   const about = useRef()
   const lan = useRef()
   const pro = useRef()
+  const home = useRef()
   return (
     <div>
        <div className=" center" style={{cursor:"pointer",justifyContent:"end",height:'50px',width:"100vw",position:"fixed",zIndex:"100",top:"0px",paddingRight:"10px",color:"blue",borderTop:"0px",backgroundColor:"white"}}>
-      <div style={{margin:"15px"}} onClick={()=>{router.push('/')}} >Home</div>
+      <div style={{margin:"15px"}} onClick={()=>{
+            home.current?.scrollIntoView({
+              behavior: 'smooth',
+            })
+          }} >Home</div>
       <div style={{margin:"15px"}}  onClick={()=>{
             about.current?.scrollIntoView({
               behavior: 'smooth',
@@ -25,7 +30,7 @@ export default function Home() {
             })
           }} >Project</div>
     </div>
-      <div className="center column section">
+      <div ref = {home} className="center column section">
       <div className="first name" style={{color:"navy",position:"relative",right:"30px"}} >
           Kamal
         </div>
@@ -56,8 +61,8 @@ export default function Home() {
                 I am a self-employed frontend web developer
             </div>
         </div>
-        <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",height:"150vh"}} >
-            <div ref={lan} className="fade" style={{width:"300px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
+        <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",height:"100vh",marginBottom:"100px"}} >
+          <div ref={lan} className="fade" style={{width:"300px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                 This is my technology stack
             </div>
             <div className="center fade column" style={{justifyContent:"space-between",width:"60vw"}} >
