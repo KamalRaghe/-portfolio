@@ -83,10 +83,10 @@ export default function Home() {
                 </div>
             </div>
         </div>
-        <br></br>
-        <div ref={pro} className="center column section" style={{fontSize:"25px",fontWeight:"bolder"}} >
+        <div ref={pro} ></div>
+        <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",border:"1px solid black",height:"150vh"}} >
             <div  className="fade" style={{width:"220px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
-                This is my projects
+                My projects
             </div>
             <div className="center column" >
                 <div className="center fade" style={{backgroundColor:"white",width:"250px",height:"200px"}} >
