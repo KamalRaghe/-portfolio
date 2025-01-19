@@ -56,7 +56,7 @@ export default function Home() {
           }}  >Project</div>
         </div>
       </div>
-      <div ref={about} className="center column section" style={{fontSize:"40px",fontWeight:"bolder",height:"40vh",marginBottom:"50px"}} >
+      <div ref={about} className="center column section" style={{fontSize:"40px",fontWeight:"bolder",marginBottom:"50px"}} >
             <div className="fade" style={{width:"330px",textAlign:"center"}}>
                 I am a self-employed frontend web developer
             </div>
