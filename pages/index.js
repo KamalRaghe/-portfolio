@@ -4,12 +4,6 @@ export default function Home() {
   const router = useRouter()
   return (
     <div>
-      <div className=" center" style={{cursor:"pointer",justifyContent:"end",height:'50px',width:"100vw",position:"fixed",zIndex:"100",top:"0px",paddingRight:"10px",color:"white",borderTop:"0px",backgroundColor:"purple"}}>
-      <div style={{margin:"15px"}} onClick={()=>{router.push('/')}} >Home</div>
-      <div style={{margin:"15px"}}  onClick={()=>{router.push('/About')}} >About</div>
-      <div style={{margin:"15px"}}  onClick={()=>{router.push('/Languages')}} >Languages</div>
-      <div style={{margin:"15px"}}  onClick={()=>{router.push('/Project')}} >Project</div>
-    </div>
       <div className="center column section">
       <div className="first name" style={{color:"blue",position:"relative",right:"30px"}} >
           Kamal
@@ -24,29 +18,6 @@ export default function Home() {
           <div style={{borderBottom:"2px solid purple"}} onClick={()=>{router.push('/Project')}}  >Project</div>
         </div>
       </div>
-      <div className="center column section" style={{fontSize:"40px",fontWeight:"bolder"}} >
-            <div className="fade" style={{width:"330px",textAlign:"center"}}>
-                I am a self-employed frontend web developer
-            </div>
-        </div>
-        <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",height:"120vh"}} >
-          <div className="fade" style={{width:"250px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
-                My technology stack
-            </div>
-            <div className="center fade" >
-                <div className="screen" style={{position:"relative"}} >
-                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
-                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
-                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
-                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
-                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
-                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
-                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
-                  <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
-                </div>
-            </div>
-        </div>
-        <div></div>
         <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",height:"150vh"}} >
             <div  className="fade" style={{width:"160px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                 My projects
