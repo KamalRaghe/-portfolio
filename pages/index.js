@@ -19,16 +19,8 @@ export default function Home() {
           E-portfolio 
         </div>
         <div className="center subtitle " style={{fontSize:"20px",color:"blue",position:"relative",bottom:"15px",cursor:"pointer"}} >
-          <div style={{borderBottom:"2px solid blue"}} onClick={()=>{
-            about.current?.scrollIntoView({
-              behavior: 'smooth',
-            })
-          }} >About</div>
-          <div style={{margin:"0 30px",borderBottom:"2px solid blue"}} onClick={()=>{
-             lan.current?.scrollIntoView({
-              behavior: 'smooth',
-            })
-          }} >Languages</div>
+          <div style={{borderBottom:"2px solid blue"}} onClick={()=>{router.push('/About')}} >About</div>
+          <div style={{margin:"0 30px",borderBottom:"2px solid blue"}} onClick={()=>{router.push('/Languages')}} >Languages</div>
           <div style={{borderBottom:"2px solid blue"}} onClick={()=>{
              pro.current?.scrollIntoView({
               behavior: 'smooth',
