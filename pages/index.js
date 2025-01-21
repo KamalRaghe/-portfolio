@@ -24,12 +24,11 @@ export default function Home() {
           <div style={{borderBottom:"2px solid blue"}} onClick={()=>{router.push('/Project')}}  >Project</div>
         </div>
       </div>
-      <div ref={about} className="center column section" style={{fontSize:"40px",fontWeight:"bolder"}} >
+      <div className="center column section" style={{fontSize:"40px",fontWeight:"bolder"}} >
             <div className="fade" style={{width:"330px",textAlign:"center"}}>
                 I am a self-employed frontend web developer
             </div>
         </div>
-        <div ref={lan} ></div>
         <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",height:"120vh"}} >
           <div className="fade" style={{width:"250px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                 My technology stack
@@ -47,7 +46,7 @@ export default function Home() {
                 </div>
             </div>
         </div>
-        <div ref={pro} ></div>
+        <div></div>
         <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder",height:"150vh"}} >
             <div  className="fade" style={{width:"160px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                 My projects
