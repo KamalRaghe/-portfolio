@@ -8,11 +8,7 @@ export default function Home() {
       <div style={{margin:"15px"}} onClick={()=>{router.push('/')}} >Home</div>
       <div style={{margin:"15px"}}  onClick={()=>{router.push('/About')}} >About</div>
       <div style={{margin:"15px"}}  onClick={()=>{router.push('/Languages')}} >Languages</div>
-      <div style={{margin:"15px"}}  onClick={()=>{
-            pro.current?.scrollIntoView({
-              behavior: 'smooth',
-            })
-          }} >Project</div>
+      <div style={{margin:"15px"}}  onClick={()=>{router.push('/Project')}} >Project</div>
     </div>
       <div ref = {home} className="center column section">
       <div className="first name" style={{color:"navy",position:"relative",right:"30px"}} >
