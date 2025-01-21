@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 export default function Home() {
   const router = useRouter()
   return (
-    <div className="center column section" style={{fontSize:"25px",fontWeight:"bolder"}} >
+    <div className="center column" style={{fontSize:"25px",fontWeight:"bolder"}} >
         <div className="center column" >
         <div  className="fade" style={{width:"160px",padding:"2px",margin:"20px",textAlign:"center",borderBottom:"2px solid white",paddingTop:"210px"}}>
             My projects
