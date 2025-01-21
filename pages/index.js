@@ -5,21 +5,9 @@ export default function Home() {
   return (
     <div>
        <div className=" center" style={{cursor:"pointer",justifyContent:"end",height:'50px',width:"100vw",position:"fixed",zIndex:"100",top:"0px",paddingRight:"10px",color:"blue",borderTop:"0px",backgroundColor:"white"}}>
-      <div style={{margin:"15px"}} onClick={()=>{
-            home.current?.scrollIntoView({
-              behavior: 'smooth',
-            })
-          }} >Home</div>
-      <div style={{margin:"15px"}}  onClick={()=>{
-            about.current?.scrollIntoView({
-              behavior: 'smooth',
-            })
-          }} >About</div>
-      <div style={{margin:"15px"}}  onClick={()=>{
-            lan.current?.scrollIntoView({
-              behavior: 'smooth',
-            })
-          }} >Languages</div>
+      <div style={{margin:"15px"}} onClick={()=>{router.push('/')}} >Home</div>
+      <div style={{margin:"15px"}}  onClick={()=>{router.push('/About')}} >About</div>
+      <div style={{margin:"15px"}}  onClick={()=>{router.push('/Languages')}} >Languages</div>
       <div style={{margin:"15px"}}  onClick={()=>{
             pro.current?.scrollIntoView({
               behavior: 'smooth',
