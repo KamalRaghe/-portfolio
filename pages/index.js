@@ -21,11 +21,7 @@ export default function Home() {
         <div className="center subtitle " style={{fontSize:"20px",color:"blue",position:"relative",bottom:"15px",cursor:"pointer"}} >
           <div style={{borderBottom:"2px solid blue"}} onClick={()=>{router.push('/About')}} >About</div>
           <div style={{margin:"0 30px",borderBottom:"2px solid blue"}} onClick={()=>{router.push('/Languages')}} >Languages</div>
-          <div style={{borderBottom:"2px solid blue"}} onClick={()=>{
-             pro.current?.scrollIntoView({
-              behavior: 'smooth',
-            })
-          }}  >Project</div>
+          <div style={{borderBottom:"2px solid blue"}} onClick={()=>{router.push('/Project')}}  >Project</div>
         </div>
       </div>
       <div ref={about} className="center column section" style={{fontSize:"40px",fontWeight:"bolder"}} >
