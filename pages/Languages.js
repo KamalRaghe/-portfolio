@@ -5,7 +5,7 @@ export default function Home() {
   return (
       <div className="center column" style={{fontSize:"40px",fontWeight:"bolder"}} >
             <div className="center column" style={{fontSize:"25px",fontWeight:"bolder"}} >
-                <div className="center column fade" >
+                <div className="center column fade" style={{paddingTop:"40px"}} >
                 <div style={{width:"250px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                     My technology stack
                 </div>
