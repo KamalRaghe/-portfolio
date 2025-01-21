@@ -1,11 +1,7 @@
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 export default function Home() {
-  const router = useRouter()
-  const about = useRef()
-  const lan = useRef()
-  const pro = useRef()
-  const home = useRef()
+
   return (
     <div>
        <div className=" center" style={{cursor:"pointer",justifyContent:"end",height:'50px',width:"100vw",position:"fixed",zIndex:"100",top:"0px",paddingRight:"10px",color:"blue",borderTop:"0px",backgroundColor:"white"}}>
