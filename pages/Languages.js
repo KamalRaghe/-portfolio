@@ -17,7 +17,6 @@ export default function Home() {
                     <img style={{margin:"15px",width:"130px",position:"relative",bottom:"5px"}} src={'/react.png'}></img>
                     <img style={{margin:"15px",width:"130px"}} src={'/next.png'}></img>
                     <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
-                    <img style={{margin:"15px",width:"130px"}} src={'/js.png'}></img>
                     </div>
                 </div>
             </div>
