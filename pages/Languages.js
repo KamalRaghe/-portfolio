@@ -1,5 +1,7 @@
+import { Html } from "next/document";
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
+import HtmlPic from "@/photo/html";
 export default function Home() {
   const router = useRouter()
   return (
@@ -10,7 +12,7 @@ export default function Home() {
                     My technology stack
                 </div>
                     <div className="screen" style={{position:"relative"}} >
-                    <img style={{margin:"15px",width:"130px",scale:"1.65",position:"relative",bottom:"27px"}} src={'/html.png'}></img>
+                    <HtmlPic />
                     <img style={{margin:"15px",width:"130px"}} src={'/css.png'}></img>
                     <img style={{margin:"15px",width:"130px",scale:"1.65",position:"relative",bottom:"27px"}} src={'/js.png'}></img>
                     <img style={{margin:"15px",width:"130px"}} src={'/ts.png'}></img>
