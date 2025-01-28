@@ -12,14 +12,16 @@ export default function Home() {
                 <div style={{width:"250px",padding:"2px",margin:"10px",textAlign:"center",borderBottom:"2px solid black"}}>
                     My technology stack
                 </div>
-                    <div className="screen" style={{position:"relative"}} >
+                    <div className="screen center" style={{position:"relative"}} >
                     <HtmlPic />
                     <CssPic></CssPic>
                     <img style={{margin:"15px",width:"130px",scale:"1.65",position:"relative",bottom:"27px"}} src={'/js.png'}></img>
                     <img style={{margin:"15px",width:"130px"}} src={'/ts.png'}></img>
+                    <div className="cente" >
                     <img style={{margin:"15px",width:"130px",position:"relative",bottom:"5px"}} src={'/react.png'}></img>
                     <img style={{margin:"15px",width:"130px"}} src={'/next.png'}></img>
                     <img style={{margin:"15px",width:"130px"}} src={'/redux.png'}></img>
+                    </div>
                     </div>
                 </div>
             </div>
