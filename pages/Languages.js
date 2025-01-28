@@ -2,6 +2,7 @@ import { Html } from "next/document";
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import HtmlPic from "@/photo/html";
+import CssPic from "@/photo/css";
 export default function Home() {
   const router = useRouter()
   return (
@@ -13,7 +14,7 @@ export default function Home() {
                 </div>
                     <div className="screen" style={{position:"relative"}} >
                     <HtmlPic />
-                    
+                    <CssPic></CssPic>
                     <img style={{margin:"15px",width:"130px",scale:"1.65",position:"relative",bottom:"27px"}} src={'/js.png'}></img>
                     <img style={{margin:"15px",width:"130px"}} src={'/ts.png'}></img>
                     <img style={{margin:"15px",width:"130px",position:"relative",bottom:"5px"}} src={'/react.png'}></img>
