@@ -32,9 +32,7 @@
 }
 
 .glow{
-    color: white;
-    font-size: 2rem;
-    text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
+  box-shadow: 0 0 20px #fff, 0 0 40px #fff, 0 0 60px #fff;
 }
 
 .first{
