@@ -1,7 +1,7 @@
 import { Html } from "next/document";
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
-import ReactPic from "@/photo/react";
+import Pic from "@/pic";
 export default function Home() {
   const router = useRouter()
   return (
@@ -13,15 +13,15 @@ export default function Home() {
                 </div>
                     <div className="screen" style={{position:"relative",marginTop:"20px"}} >
                     <div className="center" style={{justifyContent:'start'}} >
-                        <ReactPic></ReactPic>
-                        <ReactPic></ReactPic>
-                        <ReactPic></ReactPic>
-                        <ReactPic></ReactPic>
+                        <Pic></Pic>
+                        <Pic></Pic>
+                        <Pic></Pic>
+                        <Pic></Pic>
                     </div>
                     <div className="center" style={{justifyContent:'start'}} >
-                        <ReactPic></ReactPic>
-                        <ReactPic></ReactPic>
-                        <ReactPic></ReactPic>
+                        <Pic></Pic>
+                        <Pic></Pic>
+                        <Pic></Pic>
                     </div>
                     {/* <img style={{margin:"15px",width:"130px"}} src={'/next.png'}></img>
                     <img style={{margin:"15px",width:"130px"}} src={'/redux.png'}></img> */}
