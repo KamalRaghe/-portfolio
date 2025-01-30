@@ -19,9 +19,9 @@ export default function Home() {
                         <Pic title = {"TypeScript"} pic ={'ts.png'} top={'10px'}></Pic>
                     </div>
                     <div className="center" style={{justifyContent:'start'}} >
-                        <Pic title = {"Html"} pic ={'react.png'}></Pic>
-                        <Pic title = {"Html"} pic ={'next.png'}></Pic>
-                        <Pic title = {"Html"} pic ={'redux.png'}></Pic>
+                        <Pic title = {"React"} pic ={'react.png'} top={'20px'}></Pic>
+                        <Pic title = {"Next"} pic ={'next.png'} top={'13px'} ></Pic>
+                        <Pic title = {"Redux"} pic ={'redux.png'} top={'15px'}></Pic>
                     </div>
                     {/* <img style={{margin:"15px",width:"130px"}} src={'/next.png'}></img>
                     <img style={{margin:"15px",width:"130px"}} src={'/redux.png'}></img> */}
