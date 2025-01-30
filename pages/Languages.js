@@ -20,9 +20,13 @@ export default function Home() {
                     <CssPic></CssPic>
                     <JsPic></JsPic>
                     <TsPic/>
-                    <ReactPic></ReactPic>
-                    <img style={{margin:"15px",width:"130px"}} src={'/next.png'}></img>
-                    <img style={{margin:"15px",width:"130px"}} src={'/redux.png'}></img>
+                    <div>
+                        <ReactPic></ReactPic>
+                        <ReactPic></ReactPic>
+                        <ReactPic></ReactPic>
+                    </div>
+                    {/* <img style={{margin:"15px",width:"130px"}} src={'/next.png'}></img>
+                    <img style={{margin:"15px",width:"130px"}} src={'/redux.png'}></img> */}
                     </div>
                 </div>
             </div>
