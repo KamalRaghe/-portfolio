@@ -1,10 +1,6 @@
 import { Html } from "next/document";
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
-import HtmlPic from "@/photo/html";
-import CssPic from "@/photo/css";
-import JsPic from "@/photo/js";
-import TsPic from "@/photo/ts";
 import ReactPic from "@/photo/react";
 export default function Home() {
   const router = useRouter()
