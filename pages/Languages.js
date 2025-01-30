@@ -20,7 +20,7 @@ export default function Home() {
                     <CssPic></CssPic>
                     <JsPic></JsPic>
                     <TsPic/>
-                    <div className="center" >
+                    <div className="center" style={{justifyContent:'start'}} >
                         <ReactPic></ReactPic>
                         <ReactPic></ReactPic>
                         <ReactPic></ReactPic>
