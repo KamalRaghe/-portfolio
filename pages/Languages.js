@@ -16,10 +16,12 @@ export default function Home() {
                     My technology stack
                 </div>
                     <div className="screen" style={{position:"relative",marginTop:"20px"}} >
-                    <HtmlPic />
-                    <CssPic></CssPic>
-                    <JsPic></JsPic>
-                    <TsPic/>
+                    <div className="center" style={{justifyContent:'start'}} >
+                        <ReactPic></ReactPic>
+                        <ReactPic></ReactPic>
+                        <ReactPic></ReactPic>
+                        <ReactPic></ReactPic>
+                    </div>
                     <div className="center" style={{justifyContent:'start'}} >
                         <ReactPic></ReactPic>
                         <ReactPic></ReactPic>
