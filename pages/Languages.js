@@ -12,7 +12,7 @@ export default function Home() {
                     My technology stack
                 </div>
                     <div className="screen" style={{position:"relative",marginTop:"20px"}} >
-                    <div className="center" style={{justifyContent:'start'}} >
+                    <div className="center" style={{justifyContent:'start',marginBottom:"10px"}} >
                         <Pic></Pic>
                         <Pic></Pic>
                         <Pic></Pic>
