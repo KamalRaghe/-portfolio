@@ -11,17 +11,17 @@ export default function Home() {
                 <div style={{width:"250px",padding:"2px",marginBottom:"50px",textAlign:"center",borderBottom:"2px solid white"}}>
                     My technology stack
                 </div>
-                    <div className="screen" style={{position:"relative",marginTop:"20px"}} >
+                    <div className="screen" style={{position:"relative",marginTop:"0px"}} >
                     <div className="center" style={{justifyContent:'start',marginBottom:"10px"}} >
-                        <Pic></Pic>
-                        <Pic></Pic>
-                        <Pic></Pic>
-                        <Pic></Pic>
+                        <Pic title = {"Html"} pic ={'html.png'}></Pic>
+                        <Pic title = {"Html"} pic ={'html.png'}></Pic>
+                        <Pic title = {"Html"} pic ={'html.png'}></Pic>
+                        <Pic title = {"Html"} pic ={'html.png'}></Pic>
                     </div>
                     <div className="center" style={{justifyContent:'start'}} >
-                        <Pic></Pic>
-                        <Pic></Pic>
-                        <Pic></Pic>
+                        <Pic title = {"Html"} pic ={'html.png'}></Pic>
+                        <Pic title = {"Html"} pic ={'html.png'}></Pic>
+                        <Pic title = {"Html"} pic ={'html.png'}></Pic>
                     </div>
                     {/* <img style={{margin:"15px",width:"130px"}} src={'/next.png'}></img>
                     <img style={{margin:"15px",width:"130px"}} src={'/redux.png'}></img> */}
