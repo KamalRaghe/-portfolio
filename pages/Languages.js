@@ -23,8 +23,6 @@ export default function Home() {
                         <Pic title = {"Next"} pic ={'next.png'} top={'13px'} ></Pic>
                         <Pic title = {"Redux"} pic ={'redux.png'} top={'15px'}></Pic>
                     </div>
-                    {/* <img style={{margin:"15px",width:"130px"}} src={'/next.png'}></img>
-                    <img style={{margin:"15px",width:"130px"}} src={'/redux.png'}></img> */}
                     </div>
                 </div>
             </div>
