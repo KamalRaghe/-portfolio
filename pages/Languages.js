@@ -20,7 +20,7 @@ export default function Home() {
                     <CssPic></CssPic>
                     <JsPic></JsPic>
                     <TsPic/>
-                    <div>
+                    <div className="center" >
                         <ReactPic></ReactPic>
                         <ReactPic></ReactPic>
                         <ReactPic></ReactPic>
