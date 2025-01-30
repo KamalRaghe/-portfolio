@@ -5,6 +5,7 @@ import HtmlPic from "@/photo/html";
 import CssPic from "@/photo/css";
 import JsPic from "@/photo/js";
 import TsPic from "@/photo/ts";
+import ReactPic from "@/photo/react";
 export default function Home() {
   const router = useRouter()
   return (
@@ -19,7 +20,7 @@ export default function Home() {
                     <CssPic></CssPic>
                     <JsPic></JsPic>
                     <TsPic/>
-                    <img style={{margin:"15px",width:"130px",position:"relative",bottom:"5px"}} src={'/react.png'}></img>
+                    <ReactPic></ReactPic>
                     <img style={{margin:"15px",width:"130px"}} src={'/next.png'}></img>
                     <img style={{margin:"15px",width:"130px"}} src={'/redux.png'}></img>
                     </div>
