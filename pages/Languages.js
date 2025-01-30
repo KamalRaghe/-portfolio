@@ -13,10 +13,10 @@ export default function Home() {
                 </div>
                     <div className="screen" style={{position:"relative",marginTop:"0px"}} >
                     <div className="center" style={{justifyContent:'start',marginBottom:"10px"}} >
-                        <Pic title = {"Html"} pic ={'html.png'} small={true} top={'10px'}></Pic>
-                        <Pic title = {"Css"} pic ={'css.png'}></Pic>
-                        <Pic title = {"JavaScript"} pic ={'js.png'} small={true} ></Pic>
-                        <Pic title = {"TypeScript"} pic ={'ts.png'}></Pic>
+                        <Pic title = {"Html"} pic ={'html.png'} small={true} top={'40px'}></Pic>
+                        <Pic title = {"Css"} pic ={'css.png'} top={'10px'}></Pic>
+                        <Pic title = {"JavaScript"} pic ={'js.png'} top={'38px'} small={true} ></Pic>
+                        <Pic title = {"TypeScript"} pic ={'ts.png'} top={'10px'}></Pic>
                     </div>
                     <div className="center" style={{justifyContent:'start'}} >
                         <Pic title = {"Html"} pic ={'react.png'}></Pic>
