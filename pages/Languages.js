@@ -13,15 +13,15 @@ export default function Home() {
                 </div>
                     <div className="screen" style={{position:"relative",marginTop:"0px"}} >
                     <div className="center" style={{justifyContent:'start',marginBottom:"10px"}} >
-                        <Pic title = {"Html"} pic ={'html.png'}></Pic>
-                        <Pic title = {"Html"} pic ={'html.png'}></Pic>
-                        <Pic title = {"Html"} pic ={'html.png'}></Pic>
-                        <Pic title = {"Html"} pic ={'html.png'}></Pic>
+                        <Pic title = {"Html"} pic ={'html.png'} small={true}></Pic>
+                        <Pic title = {"Css"} pic ={'css.png'}></Pic>
+                        <Pic title = {"JavaScript"} pic ={'js.png'} small={true} ></Pic>
+                        <Pic title = {"TypeScript"} pic ={'ts.png'}></Pic>
                     </div>
                     <div className="center" style={{justifyContent:'start'}} >
-                        <Pic title = {"Html"} pic ={'html.png'}></Pic>
-                        <Pic title = {"Html"} pic ={'html.png'}></Pic>
-                        <Pic title = {"Html"} pic ={'html.png'}></Pic>
+                        <Pic title = {"Html"} pic ={'react.png'}></Pic>
+                        <Pic title = {"Html"} pic ={'next.png'}></Pic>
+                        <Pic title = {"Html"} pic ={'redux.png'}></Pic>
                     </div>
                     {/* <img style={{margin:"15px",width:"130px"}} src={'/next.png'}></img>
                     <img style={{margin:"15px",width:"130px"}} src={'/redux.png'}></img> */}
