@@ -1,6 +1,6 @@
 export default function JsPic(){
-    return <span>
-        <span style={{position:"relative",bottom:"166px",left:"52px"}} >Javascript</span>
-        <img style={{width:"130px",position:"relative",bottom:"13px",right:"70px",scale:"1.65",position:"relative",bottom:"40px"}} src={'/js.png'}></img>
-    </span>
+ return <span className="center column" style={{width:"170px",position:"relative",right:"10px"}} >
+    <span> React </span>
+    <img style={{margin:"15px",width:"130px",position:"relative",bottom:"5px"}} src={'/react.png'}></img>
+</span>
 }
