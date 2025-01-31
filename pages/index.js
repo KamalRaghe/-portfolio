@@ -3,8 +3,7 @@ import { useEffect, useRef, useState } from "react";
 export default function Home() {
   const router = useRouter()
   return (
-    <div>
-      <div className="center column">
+      <div className="center column" style={{border:"20px solid white",height:"100vh"}}>
       <div className="first name" style={{color:"blue",position:"relative",right:"30px"}} >
           Kamal
         </div>
@@ -19,6 +18,5 @@ export default function Home() {
         </div>
       </div>
         
-    </div>
   );
 }
