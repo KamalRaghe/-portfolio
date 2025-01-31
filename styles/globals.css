@@ -112,15 +112,9 @@
   }
 }
 
-.screen{
-  width: 850px;
-  left: 35px
-}
-
 @media (max-width: 680px){
   .screen{
-    width: 340px;
-    left: 8px
+    flex-direction: column;
   }
 }
 
