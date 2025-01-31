@@ -1,11 +1,18 @@
 import { Html } from "next/document";
 import { useRouter } from "next/router";
-import { useEffect, useRef, useState } from "react";
+import { use, useEffect, useRef, useState } from "react";
 import Pic from "@/pic";
 export default function Home() {
   const router = useRouter()
   const [delay, setDelay]= useState(500)
-  const [day, setDay] = useState(Date.now())
+
+  function update(){
+    setDate(requestAnimationFrame(update))
+
+    useEffect(()=>{
+        update()
+    },[])
+  }
   return (
       <div className="center column" style={{fontSize:"40px",fontWeight:"bolder"}} >
             <div className="center column" style={{fontSize:"25px",fontWeight:"bolder"}} >
@@ -15,7 +22,7 @@ export default function Home() {
                 </div>
                     <div className="screen" style={{position:"relative",marginTop:"0px",left:"90px"}} >
                     <div className="center" style={{justifyContent:'start',marginBottom:"10px"}} >
-                        <Pic title = {"Html"} pic ={'html.png'} small={true} top={'40px'}></Pic>
+                        {delay && <Pic title = {"Html"} pic ={'html.png'} small={true} top={'40px'}></Pic>}
                         <Pic title = {"Css"} pic ={'css.png'} top={'10px'}></Pic>
                         <Pic title = {"JavaScript"} pic ={'js.png'} top={'38px'} small={true} ></Pic>
                         <Pic title = {"TypeScript"} pic ={'ts.png'} top={'10px'}></Pic>
