@@ -23,15 +23,15 @@ export default function Home() {
                 </div>
                     <div className="screen" style={{position:"relative",marginTop:"0px",left:"90px"}} >
                     <div className="center" style={{justifyContent:'start',marginBottom:"10px"}} >
-                        {time+1000 < Date.now() && <Pic title = {"Html"} pic ={'html.png'} small={true} top={'40px'}></Pic></div>}
+                        {time+1000 < Date.now() && <Pic title = {"Html"} pic ={'html.png'} small={true} top={'40px'}></Pic>}
                         {time+2000 < Date.now() && <Pic title = {"Css"} pic ={'css.png'} top={'10px'}></Pic>}
-                        <Pic title = {"JavaScript"} pic ={'js.png'} top={'38px'} small={true} ></Pic>
-                        <Pic title = {"TypeScript"} pic ={'ts.png'} top={'10px'}></Pic>
+                        {time+1000 < Date.now() && <Pic title = {"JavaScript"} pic ={'js.png'} top={'38px'} small={true} ></Pic>}
+                        {time+1000 < Date.now() && <Pic title = {"TypeScript"} pic ={'ts.png'} top={'10px'}></Pic>}
                     </div>
                     <div className="center" style={{justifyContent:'start'}} >
-                        <Pic title = {"React"} pic ={'react.png'} top={'20px'}></Pic>
-                        <Pic title = {"Next"} pic ={'next.png'} top={'13px'} ></Pic>
-                        <Pic title = {"Redux"} pic ={'redux.png'} top={'15px'}></Pic>
+                        {time+1000 < Date.now() && <Pic title = {"React"} pic ={'react.png'} top={'20px'}></Pic>}
+                        {time+1000 < Date.now() && <Pic title = {"Next"} pic ={'next.png'} top={'13px'} ></Pic>}
+                        {time+1000 < Date.now() && <Pic title = {"Redux"} pic ={'redux.png'} top={'15px'}></Pic>}
                     </div>
                     </div>
                 </div>
