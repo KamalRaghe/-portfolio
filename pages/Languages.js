@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import Pic from "@/pic";
 export default function Home() {
   const router = useRouter()
+  const [delay, setDelay]= useState(500)
+  const [day, setDay] = useState(Date.now())
   return (
       <div className="center column" style={{fontSize:"40px",fontWeight:"bolder"}} >
             <div className="center column" style={{fontSize:"25px",fontWeight:"bolder"}} >
@@ -11,7 +13,7 @@ export default function Home() {
                 <div style={{width:"250px",padding:"2px",marginBottom:"50px",textAlign:"center",borderBottom:"2px solid white"}}>
                     My technology stack
                 </div>
-                    <div className="screen" style={{position:"relative",marginTop:"0px"}} >
+                    <div className="screen" style={{position:"relative",marginTop:"0px",left:"90px"}} >
                     <div className="center" style={{justifyContent:'start',marginBottom:"10px"}} >
                         <Pic title = {"Html"} pic ={'html.png'} small={true} top={'40px'}></Pic>
                         <Pic title = {"Css"} pic ={'css.png'} top={'10px'}></Pic>
