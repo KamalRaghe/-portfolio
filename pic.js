@@ -7,7 +7,7 @@ export default function Pic({title,pic,small,top}){
             setBigger('1.65')
         }
     })
-    return <span className="center column" style={{width:"170px",position:"relative",right:"10px"}} >
+    return <span className="center column fade" style={{width:"170px",position:"relative",right:"10px"}} >
         <span style={{position:"relative",bottom:top}} >{title}</span>
         <img style={{margin:"15px",width:"130px",position:"relative",bottom:"5px",scale:bigger}} src={pic}></img>
     </span>

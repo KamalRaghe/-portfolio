@@ -4,14 +4,15 @@ import { use, useEffect, useRef, useState } from "react";
 import Pic from "@/pic";
 export default function Home() {
   const router = useRouter()
-  const [delay, setDelay]= useState(500)
   const [date, setDate] = useState(Date.now())
+  const [time, setTime] = useState(Date.now())
 
   function update(){
     setDate(requestAnimationFrame(update))
   }
   useEffect(()=>{
     update()
+    console.log(date+1000,Date.now())
 },[])
   return (
       <div className="center column" style={{fontSize:"40px",fontWeight:"bolder"}} >
@@ -22,8 +23,8 @@ export default function Home() {
                 </div>
                     <div className="screen" style={{position:"relative",marginTop:"0px",left:"90px"}} >
                     <div className="center" style={{justifyContent:'start',marginBottom:"10px"}} >
-                        {date+delay < Date.now() && <Pic title = {"Html"} pic ={'html.png'} small={true} top={'40px'}></Pic>}
-                        <Pic title = {"Css"} pic ={'css.png'} top={'10px'}></Pic>
+                        {time+1000 < Date.now() && <Pic title = {"Html"} pic ={'html.png'} small={true} top={'40px'}></Pic></div>}
+                        {time+2000 < Date.now() && <Pic title = {"Css"} pic ={'css.png'} top={'10px'}></Pic>}
                         <Pic title = {"JavaScript"} pic ={'js.png'} top={'38px'} small={true} ></Pic>
                         <Pic title = {"TypeScript"} pic ={'ts.png'} top={'10px'}></Pic>
                     </div>
