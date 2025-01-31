@@ -4,7 +4,7 @@ export default function Home() {
   const router = useRouter()
   return (
     <div>
-      <div className="center column" style={{border:"1px solid white",height:"100vh"}}>
+      <div className="center column">
       <div className="first name" style={{color:"blue",position:"relative",right:"30px"}} >
           Kamal
         </div>
