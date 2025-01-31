@@ -21,7 +21,7 @@ export default function Home() {
                 <div style={{width:"250px",padding:"2px",marginBottom:"50px",textAlign:"center"}}>
                     My technology stack
                 </div>
-                    <div style={{position:"relative",border:"2px solid white"}} >
+                    <div style={{position:"relative"}} >
                     <div className="center screen" style={{justifyContent:'start',marginBottom:"10px"}} >
                         <div className="center" >
                             {time+800 < Date.now() && <Pic title = {"Html"} pic ={'html.png'} small={true} top={'40px'}></Pic>}
