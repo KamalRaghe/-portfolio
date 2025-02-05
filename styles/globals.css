@@ -50,6 +50,12 @@
   color: navy;
 }
 
+.click{
+  cursor: pointer;
+  background-color: #fff;
+}
+
+
 .first{
   animation: right 2s linear;
 }
