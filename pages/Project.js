@@ -18,8 +18,7 @@ export default function Home() {
                 <div className="center" style={{position:"absolute",top:"60px",right:"10px",width:"170px"}} >Book store</div>
             </div>
             <div className="center fade" style={{color:"purple",scale:"2",marginBottom:"150px",position:"relative",left:"32px"}} >
-                <Pic glow={true} title = {""} pic ={'pic3.png'} top={'38px'} small={true} ></Pic>
-                <div className="center" style={{position:"absolute",top:"60px",right:"10px",width:"170px"}} >Math Improve</div>
+                <Pic glow={true} title = {"Math Improve"} pic ={'pic3.png'} top={'38px'} small={true} ></Pic>  
             </div>
             </div>
     </div>
