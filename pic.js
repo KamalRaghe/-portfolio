@@ -1,7 +1,7 @@
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 
-export default function Pic({title,pic,small,top,glow}){
+export default function Pic({title,pic,small,top,glow,link}){
     const [bigger,setBigger] = useState('1')
     const router = useRouter()
     useEffect(()=>{
