@@ -133,6 +133,10 @@
   }
 }
 
+.about{
+  width: 80%;
+}
+
 @media (max-width: 680px){
   .screen{
     flex-direction: column;
