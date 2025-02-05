@@ -16,7 +16,7 @@ export default function Home() {
                 <Pic glow={true} title = {"Book store"} pic ={'pic2.png'} top={'38px'} link={'https://advanced-virtual-internship-2.vercel.app/'} small={true} ></Pic>
             </div>
             <div className="center fade link" style={{scale:"2",marginBottom:"150px",position:"relative",left:"32px"}} >
-                <Pic glow={true} title = {"Math Improve"} pic ={'pic3.png'} top={'38px'}  small={true} ></Pic>  
+                <Pic glow={true} title = {"Math Improve"} pic ={'pic3.png'} top={'38px'} link={'https://mathimprove.com/'}  small={true} ></Pic>  
             </div>
             </div>
     </div>
