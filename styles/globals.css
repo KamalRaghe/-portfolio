@@ -50,7 +50,7 @@
   color: navy;
 }
 
-.click{
+.click:hover{
   cursor: pointer;
   background-color: #fff;
 }
