@@ -15,8 +15,9 @@ export default function Home() {
             <div className="center fade" style={{scale:"2",margin:"20px",marginBottom:"150px",position:"relative",left:"32px"}} >
                 <Pic glow={true} title = {""} pic ={'pic2.png'} top={'38px'} small={true} ></Pic>
             </div>
-            <div className="center fade" style={{scale:"2",marginBottom:"150px",position:"relative",left:"32px"}} >
+            <div className="center fade" style={{color:"purple",scale:"2",marginBottom:"150px",position:"relative",left:"32px"}} >
                 <Pic glow={true} title = {""} pic ={'pic3.png'} top={'38px'} small={true} ></Pic>
+                <div className="center" style={{position:"absolute",top:"60px",right:"10px",width:"170px"}} >Math Improve</div>
             </div>
             </div>
     </div>
