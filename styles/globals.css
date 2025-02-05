@@ -42,7 +42,13 @@
   filter: blur(0.2px);
 }
 
-.link{}
+.link{
+  opacity: 0;
+}
+
+.link:hover{
+  opacity: 1;
+}
 
 .first{
   animation: right 2s linear;
