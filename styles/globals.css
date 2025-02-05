@@ -43,11 +43,11 @@
 }
 
 .link{
-  opacity: 0;
+  color:"transparent"
 }
 
 .link:hover{
-  opacity: 1;
+  color: navy;
 }
 
 .first{
