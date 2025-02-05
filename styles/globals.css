@@ -42,6 +42,8 @@
   filter: blur(0.2px);
 }
 
+.link{}
+
 .first{
   animation: right 2s linear;
 }
