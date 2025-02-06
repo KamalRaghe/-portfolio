@@ -2,12 +2,6 @@ import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import Pic from "@/pic";
 export default function Home() {
-    const [delay,setDelay] = useState(false)
-    useEffect(()=>{
-        setTimeout(() => {
-            setDelay(true)
-        }, 0); 
-    })
   const router = useRouter()
   return (
     <div className="center column" style={{fontSize:"25px",fontWeight:"bolder"}} >
