@@ -157,3 +157,10 @@
   }
 }
 
+.text{
+  color:"transparent" !important;
+}
+
+.text:hover{
+  display: flex
+}
