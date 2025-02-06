@@ -2,6 +2,12 @@ import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import Pic from "@/pic";
 export default function Home() {
+    const [delay,setDelay] = useState(false)
+    useEffect(()=>{
+        setTimeout(() => {
+            setDelay(true)
+        }, 0); 
+    })
   const router = useRouter()
   return (
     <div className="center column" style={{fontSize:"25px",fontWeight:"bolder"}} >
@@ -12,7 +18,7 @@ export default function Home() {
             <div className="center fade link" style={{scale:"2",margin:"40px",marginBottom:"130px",position:"relative",left:"32px"}} >
                 <Pic glow={true} title = {"Nft market"} pic ={'pic1.png'} top={'38px'} link={'https://kamal-nft-marketplace-starter.vercel.app/'} small={true} ></Pic>
             </div>
-            <div className="about" style={{width:"390px",position:'relative',bottom:'20px'}} >An NFT marketplace that displays both the creator and current owner of each NFT.</div>
+            {<div className="about" style={{width:"390px",position:'relative',bottom:'20px'}} >An NFT marketplace that displays both the creator and current owner of each NFT.</div>}
             <div className="center fade link" style={{scale:"2",margin:"20px",marginBottom:"150px",position:"relative",left:"32px"}} >
                 <Pic glow={true} title = {"Book store"} pic ={'pic2.png'} top={'38px'} link={'https://advanced-virtual-internship-2.vercel.app/'} small={true} ></Pic>
             </div>
