@@ -5,7 +5,6 @@ export default function Home() {
   const router = useRouter()
   return (
     <div className="center column" style={{fontSize:"25px",fontWeight:"bolder"}} >
-        <div className="center column" >
         <div  className="fade" style={{width:"160px",padding:"2px",margin:"20px",textAlign:"center",borderBottom:"2px solid white",paddingTop:"50px"}}>
             My projects
         </div>
@@ -20,7 +19,6 @@ export default function Home() {
             <div className="center column fade link" style={{scale:"2",marginBottom:"150px",position:"relative",left:"36px"}} >
                 <Pic glow={true} title = {"Math Improve"} pic ={'pic3.png'} top={'38px'} link={'https://mathimprove.com/'}  small={true} ></Pic>  
                 <div className="about" style={{width:"250px",color:"white",fontSize:"15px",marginTop:"10px",cursor:"pointer"}} >My personal website is designed to guide users through every step with ease.</div>
-            </div>
             </div>
     </div>
   );
