@@ -14,7 +14,7 @@ export default function Home() {
             </div>
             <div className="center column fade link" style={{scale:"2",margin:"20px",marginBottom:"150px",position:"relative",left:"36px"}} >
                 <Pic glow={true} title = {"Book store"} pic ={'pic2.png'} top={'38px'} link={'https://advanced-virtual-internship-2.vercel.app/'} small={true} ></Pic>
-                <div className="about" style={{width:"200px",color:"white",fontSize:"15px",marginTop:"10px",cursor:"pointer",position:"relative",right:"10px"}} >An online bookstore where you can browse and preview books for free.</div>
+                <div className="about" style={{width:"200px",color:"white",fontSize:"15px",marginTop:"10px",cursor:"pointer"}} >An online bookstore where you can browse and preview books for free.</div>
             </div>
             <div className="center column fade link" style={{scale:"2",marginBottom:"150px",position:"relative",left:"36px"}} >
                 <Pic glow={true} title = {"Math Improve"} pic ={'pic3.png'} top={'38px'} link={'https://mathimprove.com/'}  small={true} ></Pic>  
