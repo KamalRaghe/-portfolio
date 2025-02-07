@@ -5,7 +5,7 @@ export default function Home() {
   const router = useRouter()
   return (
     <div className="center column" style={{fontSize:"25px",fontWeight:"bolder"}} >
-        <div  className="fade" style={{width:"160px",padding:"2px",margin:"20px",textAlign:"center",borderBottom:"2px solid white",paddingTop:"50px",position:"relative",left:"10px"}}>
+        <div  className="fade" style={{width:"146px",padding:"2px",margin:"20px",textAlign:"center",borderBottom:"2px solid white",paddingTop:"50px",position:"relative",left:"15px"}}>
             My projects
         </div>
             <div className="center column fade link text" style={{scale:"1.8",margin:"20px",marginBottom:"120px",position:"relative",left:"36px"}} >
