@@ -13,7 +13,7 @@ export default function Home() {
         </div>
         <div className="center subtitle " style={{fontSize:"20px",color:"purple",position:"relative",bottom:"15px",cursor:"pointer"}} >
           <div style={{borderBottom:"2px solid purple"}} onClick={()=>{router.push('/About')}} >About</div>
-          <div style={{margin:"0 30px",borderBottom:"2px solid purple"}} onClick={()=>{router.push('/Languages')}} >Languages</div>
+          <div style={{margin:"0 30px",borderBottom:"2px solid purple"}} onClick={()=>{router.push('/Languages')}}>Skills</div>
           <div style={{borderBottom:"2px solid purple"}} onClick={()=>{router.push('/Project')}}  >Project</div>
         </div>
       </div>
