@@ -37,7 +37,7 @@ export default function Home() {
                             {time+4000 < Date.now() && <Pic title = {"React"} pic ={'react.png'} top={'20px'}></Pic>}
                             {time+4800 < Date.now() && <Pic title = {"Next"} pic ={'next.png'} top={'13px'} ></Pic>}
                         </div>
-                        <div className="center" >
+                        <div className="center" style={{position:"relative",left:"5px"}} >
                             {time+5600 < Date.now() && <Pic title = {"Redux"} pic ={'redux.png'} top={'15px'}></Pic>}
                             {time+5600 < Date.now() && <div><Pic title = {""} pic ={''} top={'15px'}></Pic></div>}
                         </div>
