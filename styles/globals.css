@@ -148,12 +148,19 @@
   }
 }
 
+.cer{
+  scale: 0.5
+}
+
 @media (max-width: 680px){
   .about{
     width: 95%;
   }
   .screen{
     flex-direction: column;
+  }
+  .cer{
+    scale: 0.25;
   }
 }
 

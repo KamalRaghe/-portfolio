@@ -5,7 +5,7 @@ export default function Home() {
   const router = useRouter()
   return (
     <div className="center column" style={{fontSize:"25px",fontWeight:"bolder"}} >
-        <div className="center column fade" style={{scale:'0.25',height:"100vh"}} >
+        <div className="center column fade cer" style={{height:"100vh"}} >
             <img className="glow" src={'cer.png'}></img>               
         </div>
     </div>
